@@ -8,3 +8,5 @@ $(PDFNAME): $(MAIN) references.bib
 	mv main.pdf $(PDFNAME)
 
 
+clean:
+	rm *.log *.aux *.bbl *.blg $(PDFNAME) *~
